@@ -34,7 +34,7 @@
   );
 }
 /* clip path for mobile screen */
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .custom-shapeMobile {
     clip-path: polygon(
       4.77% 0%,
@@ -65,7 +65,7 @@
       0% 4.25%
     );
   }
-}
+} */
 /* clip path for second shape */
 .second-shape {
   clip-path: polygon(
@@ -253,4 +253,122 @@
       0% 98%
     );
   }
+}
+/* below new 4 shapes CSS*/
+
+/* first shape  */
+.FirstShapecss {
+  clip-path: polygon(
+    4% 0%,
+    30% 0%,
+    32% 4%,
+    68% 4%,
+    70% 0%,
+    100% 0%,
+    100% 100%,
+    0% 100%,
+    0% 4%
+  );
+}
+.FirstShapecss2 {
+  clip-path: polygon(
+    4% 0%,
+    31.4% 0%,
+    33.4% 4%,
+    66.6% 4%,
+    68.6% 0%,
+    100% 0%,
+    100% 100%,
+    0% 100%,
+    0% 4%
+  );
+}
+/* second shape css */
+.SecondShapecss {
+  clip-path: polygon(
+    2% 0%,
+    30% 0%,
+    31% 6%,
+    68% 6%,
+    69% 0%,
+    100% 0%,
+    100% 100%,
+    0% 100%,
+    0% 4%
+  );
+}
+.SecondShapecss2 {
+  clip-path: polygon(
+    2% 0%,
+    31% 0%,
+    32% 6%,
+    67% 6%,
+    68% 0%,
+    100% 0%,
+    100% 100%,
+    0% 100%,
+    0% 4%
+  );
+}
+/* third shape  */
+.ThirdShapecss {
+  clip-path: polygon(
+    5% 0%,
+    35% 0%,
+    37% 5%,
+    63% 5%,
+    65% 0%,
+    95% 0%,
+    100% 8%,
+    100% 94.7%,
+    96.9% 99.4%,
+    0% 99.6%,
+    0% 8%
+  );
+}
+.ThirdShapecss2 {
+  clip-path: polygon(
+    5% 0%,
+    36% 0%,
+    38% 5%,
+    62% 5%,
+    64% 0%,
+    95% 0%,
+    100% 8%,
+    100% 95%,
+    97% 100%,
+    0% 100%,
+    0% 8%
+  );
+}
+/* fourth shape */
+.FourthShapecss {
+  clip-path: polygon(
+    5% 0%,
+    30% 0%,
+    32% 4%,
+    68% 4%,
+    70% 0%,
+    95% 0%,
+    100% 8%,
+    100% 94.7%,
+    96.9% 99.4%,
+    0% 99.6%,
+    0% 5%
+  );
+}
+.FourthShapecss2 {
+  clip-path: polygon(
+    5% 0%,
+    32% 0%,
+    34% 4%,
+    66% 4%,
+    68% 0%,
+    95% 0%,
+    100% 8%,
+    100% 95%,
+    97% 100%,
+    0% 100%,
+    0% 5%
+  );
 }
