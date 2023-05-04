@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App2.css";
 import FirstShape from "./FirstShape";
 import NewShapes from "./NewShapes";
 import SecondShape from "./secondShape";
@@ -8,8 +8,6 @@ function App() {
   return (
     <>
       <ThirdShape />
-      <NewShapes />
-
       {/* second shape    */}
       {/* <SecondShape /> */}
       {/* first shape  */}

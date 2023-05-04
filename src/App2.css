@@ -1,0 +1,61 @@
+/* clip path for background image*/
+.backgoundpathfirst {
+  clip-path: polygon(
+    1.1% 0%,
+    39.2% 0%,
+    40.2% 5.8%,
+    52.38% 5.8%,
+    53.32% 0%,
+    97.6% 0%,
+    100% 10.6%,
+    100% 94.71%,
+    98.83% 100%,
+    0% 100%,
+    0% 5%
+  );
+}
+
+@media screen and (max-width: 640px) {
+  .backgoundpathmobile {
+    clip-path: polygon(
+      0% 0%,
+      31% 0%,
+      33.5% 4%,
+      62.5% 4%,
+      65% 0%,
+      94% 0%,
+      100% 5.33%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  .backgoundpathmobile2 {
+    background-color: #43e5f1;
+    clip-path: polygon(
+      0% 0%,
+      33% 0%,
+      35.5% 4%,
+      60.5% 4%,
+      63% 0%,
+      94% 0%,
+      100% 5.33%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+.heroDashboardContainer {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  width: 90%;
+  height: 13.7rem;
+  border-radius: 0;
+
+  border-image: linear-gradient(135.8deg, #1a3648 2.53%, #2c98eb 98.18%) 90;
+  border-width: 1px;
+  border-style: solid;
+}

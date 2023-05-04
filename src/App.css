@@ -163,11 +163,11 @@
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 /* clip path for background image*/
-.backgoundpath {
+/* .backgoundpath {
   clip-path: polygon(
     0% 5.65%,
     1.5% -0.36%,
-    39.5% 0%,
+    38.5% 0%,
     41.66% 5%,
     50% 5%,
     53% 0%,
@@ -198,7 +198,7 @@
     clip-path: polygon(
       0% 4.95%,
       1.4% -0.36%,
-      36% 0%,
+      35% 0%,
       37% 5.8%,
       53.5% 5.8%,
       54.6% 0%,
@@ -213,7 +213,7 @@
     clip-path: polygon(
       0% 5.65%,
       1.5% -0.36%,
-      36.5% 0%,
+      35.5% 0%,
       37.5% 5.8%,
       53% 5.8%,
       54.2% 0%,
@@ -255,7 +255,7 @@
     background-position: top;
     background-repeat: no-repeat;
   }
-}
+} */
 /* below new 4 shapes CSS*/
 
 /* first shape  */
@@ -289,10 +289,10 @@
 .SecondShapecss {
   clip-path: polygon(
     2% 0%,
-    25% 0%,
-    26% 6%,
-    74% 6%,
-    75% 0%,
+    27% 0%,
+    28% 6%,
+    72% 6%,
+    73% 0%,
     100% 0%,
     100% 100%,
     0% 100%,
@@ -302,10 +302,10 @@
 .SecondShapecss2 {
   clip-path: polygon(
     2% 0%,
-    26% 0%,
-    27% 6%,
-    73% 6%,
-    74% 0%,
+    28% 0%,
+    29% 6%,
+    71% 6%,
+    72% 0%,
     100% 0%,
     100% 100%,
     0% 100%,
@@ -374,3 +374,159 @@
     0% 5%
   );
 }
+/**************************************************************************************/
+
+.marketPlacePath {
+  clip-path: polygon(
+    0% 5.65%,
+    1.5% -0.36%,
+    39.5% 0%,
+    41.66% 5%,
+    50% 5%,
+    53% 0%,
+    97.47% -0.36%,
+    100.08% 11.79%,
+    100.08% 92.86%,
+    98.78% 100%,
+    0% 100%
+  );
+}
+
+.marketPlaceBgPathFirstDiv {
+  clip-path: polygon(
+    0% 4.95%,
+    1.4% -0.36%,
+    39.1% 0%,
+    40.1% 5.9%,
+    52.3% 5.9%,
+    53.3% 0%,
+    97.6% -0.36%,
+    100.08% 10.9%,
+    100.08% 93.4%,
+    98.9% 100%,
+    0% 100%
+  );
+}
+
+@media (max-width: 1050px) {
+  .marketPlacePath2 {
+    clip-path: polygon(
+      0% 4.95%,
+      1.4% -0.36%,
+      36% 0%,
+      37% 5.8%,
+      53.5% 5.8%,
+      54.6% 0%,
+      97.8% -0.36%,
+      100.08% 10.9%,
+      100.08% 93.4%,
+      98.9% 100%,
+      0% 100%
+    );
+  }
+
+  .marektPlaceBg2FirstDiv {
+    clip-path: polygon(
+      0% 5.65%,
+      1.5% -0.36%,
+      36.5% 0%,
+      37.5% 5.8%,
+      53% 5.8%,
+      54.2% 0%,
+      97.9% -0.36%,
+      100.08% 10.4%,
+      100.08% 94%,
+      99% 100%,
+      0% 100%
+    );
+  }
+}
+
+@media (max-width: 640px) {
+  .bgMarkettPlacePathMobile {
+    clip-path: polygon(
+      0% 0%,
+      20.62% 0%,
+      23.37% 6.23%,
+      59.9% 6.23%,
+      70% 0%,
+      92% 0%,
+      100% 6%,
+      100% 98%,
+      0% 100%
+    );
+  }
+
+  .bgMraketPlaceMobileFirstDiv {
+    clip-path: polygon(
+      0% 0%,
+      19.8% 0%,
+      22.8% 5.66%,
+      68.2% 5.6%,
+      71.6% 0%,
+      95.5% 0%,
+      100% 6.5%,
+      100% 99%,
+      0% 98%
+    );
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+}
+
+/* clip path for background image end */
+
+.marketPLaceBGColor {
+  background: linear-gradient(
+    126.72deg,
+    #01273c 2.65%,
+    #01273c 27.02%,
+    #00314b 52.41%,
+    #00334f 79.29%,
+    #023551 99.4%
+  );
+}
+
+.maarketPlaceHeroMainParent {
+  width: 90%;
+  height: 48vh;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .maarketPlaceHeroMainParent {
+    width: 100% !important;
+    height: 38rem !important;
+
+    top: 4rem;
+    position: relative;
+    left: -0.2rem;
+  }
+
+  .marketPlaceTextContaier {
+    margin-left: 2rem !important;
+  }
+}
+
+@media (max-width: 1050px) {
+  .maarketPlaceHeroMainParent {
+    width: 90%;
+    height: 26rem;
+  }
+}
+
+.marketPlaceBlueBall {
+  background: linear-gradient(135.8deg, #2c98eb 2.53%, #1a3648 98.18%);
+  filter: blur(4px);
+}
+
+.marketPlaceGlassMorphismContainer {
+  background: #194157;
+  opacity: 0.1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+  width: 96%;
+  height: 17rem;
+  border-radius: 10px;
+}
+/********************************************************************************************/
