@@ -3,9 +3,12 @@ import React from "react";
 const ThirdShape = () => {
   return (
     <>
+      {/* <div className="h-[2.7rem]  bg-[#43E5F1] premiumBox3_border relative top-[2.9rem]  w-[27%] ">
+        <div className="h-[2.7rem]   bg-[#0B111F]  premiumBox3  top-[2.9rem] w-full "></div>
+      </div> */}
       <div className="DashboardHeroComponentMainParent relative left-2 md:left-0 flex justify-center md:mt-8  ">
-        <div className="xl:w-[1266px] lg:w-[1100px] md:w-[900px] sm:w-[640px] sm:h-[280px] h-[400px] backgoundpathmobile2 border-[1px] sm:border-0 border-[#43E5F1] m-5 sm:m-0 ">
-          <div className="xl:w-[1266px] lg:w-[1100px] md:w-[900px] sm:w-[640px] sm:h-[280px] h-[400px] backgoundpathfirst bg-cover bg-center flex sm:bg-[url('./frame.svg')] bg-[url('./bgformobile.png')] backgoundpathmobile  justify-start items-start ">
+        <div className="xl:w-[1266px] lg:w-[1100px] md:w-[900px] sm:w-[640px sm:h-[280px] h-[400px] border-[1px]  backgoundpathmobile2 sm:border-0 border-[#43E5F1]">
+          <div className="xl:w-[1266px] lg:w-[1100px] md:w-[900px] sm:w-[640px] w-[400px] sm:h-[280px] h-[400px] backgoundpathfirst bg-cover  sm:bg-center bg-right bg-no-repeat flex bg-[url('./frame.svg')] backgoundpathmobile  justify-start items-start ">
             <div className="heroDashboardContainer pb-10 relative top-12 md:ml-8 bg-black bg-opacity-40 heroGlassBox rounded">
               <div className="flex flex-col gap-4 md:ml-5 ml-2 pt-2 pb-6 rounded-md ">
                 <p className="text-gray-400 -mb-7">PLay and earn</p>
